@@ -1,0 +1,835 @@
+@font-face {
+    font-family: "PoppinsB";
+    src: url("font/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsL";
+    src: url("font/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsM";
+    src: url("font/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsR";
+    src: url("font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PoppinsSB";
+    src: url("font/Poppins-SemiBold.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "PoppinsR";
+    font-size: 20px;
+}
+
+
+
+
+.main-body {
+    /* background-color: black; */
+    background-image: url("resource/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.background {
+    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hLogo {
+    background-image: url("resource/hLogo.svg");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title1 {
+    font-family: "PoppinsSB";
+    font-size: 36px;
+    color: white;
+}
+
+.title2 {
+    font-family: "PoppinsR";
+    font-size: 20px;
+    color: white;
+}
+
+.infoTitle {
+    font-family: "PoppinsL";
+    font-size: 16px;
+    color: rgb(17, 12, 12);
+}
+
+.bTitle {
+    font-family: "PoppinsM";
+    font-size: 20px;
+    color: white;
+}
+
+.btn-outline-vnyA {
+    --bs-btn-color: #0083C2;
+    --bs-btn-border-color: #0083C2;
+    --bs-btn-hover-color: rgb(255, 255, 255);
+    --bs-btn-hover-bg: #0083C2;
+    --bs-btn-hover-border-color: #0083C2;
+    --bs-btn-focus-shadow-rgb: 248, 249, 250;
+    --bs-btn-active-color: rgb(255, 255, 255);
+    --bs-btn-active-bg: #0083C2;
+    --bs-btn-active-border-color: #0083C2;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0083C2;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0083C2;
+    --bs-gradient: none;
+}
+
+.btn-outline-vnyB {
+    --bs-btn-color: #EB1733;
+    --bs-btn-border-color: #EB1733;
+    --bs-btn-hover-color: rgb(255, 255, 255);
+    --bs-btn-hover-bg: #EB1733;
+    --bs-btn-hover-border-color: #EB1733;
+    --bs-btn-focus-shadow-rgb: 248, 249, 250;
+    --bs-btn-active-color: rgb(255, 255, 255);
+    --bs-btn-active-bg: #EB1733;
+    --bs-btn-active-border-color: #EB1733;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #EB1733;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #EB1733;
+    --bs-gradient: none;
+}
+
+.f {
+    bottom: 0;
+    font-size: .875rem;
+    left: 0;
+    line-height: 1.125rem;
+    padding: 1rem;
+    position: relative;
+    transform: translateZ(0);
+    width: 100%;
+    z-index: 5;
+}
+
+.msg {
+    color: #EB1733;
+}
+
+.headerT {
+    font-family: "PoppinsSB";
+    font-size: 15px;
+}
+
+.sheaderT {
+    font-family: "PoppinsM";
+    font-size: 12px;
+}
+
+.footerT {
+    font-family: "PoppinsR";
+    font-size: 16px;
+}
+
+.headerLogo {
+    /* background-image: url("resource/horizontalLogo.png"); */
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sHeaderC {
+    background-color: #0083C2;
+}
+
+.sHeaderLogo {
+
+    background-image: url("resource/Icon.svg");
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.categoryName {
+
+    font-family: "PoppinsSB";
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+}
+
+.productName {
+
+    font-family: "PoppinsSB";
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+
+}
+
+.price {
+    color: #0083C2;
+
+}
+
+.vd {
+    background-color: #3CB7F0;
+
+}
+
+.btn-atc-vny {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #EB1733;
+    --bs-btn-border-color: #EB1733;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #EB1733;
+    --bs-btn-hover-border-color: #EB1733;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #EB1733;
+    --bs-btn-active-border-color: #EB1733;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #EB1733;
+    --bs-btn-disabled-border-color: #EB1733;
+}
+
+.btn-atc-vny:hover {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #000000;
+    --bs-btn-disabled-border-color: #000000;
+}
+
+.btn-atc-vnb {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0083C2;
+    --bs-btn-border-color: #0083C2;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0083C2;
+    --bs-btn-hover-border-color: #0083C2;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0083C2;
+    --bs-btn-active-border-color: #0083C2;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0083C2;
+    --bs-btn-disabled-border-color: #0083C2;
+}
+
+.btn-atc-vnb:hover {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #000000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000000;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #000000;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #000000;
+    --bs-btn-disabled-border-color: #000000;
+
+}
+
+.logout:hover {
+    cursor: pointer;
+}
+
+.help:hover {
+    cursor: pointer;
+}
+
+.mpoint:hover {
+    cursor: pointer;
+}
+
+.userN {
+    font-family: "PoppinSB";
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.userE {
+    font-family: "PoppinsM";
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-atc-vnub {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0083C2;
+    --bs-btn-border-color: #0083C2;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0083C2;
+    --bs-btn-hover-border-color: #0083C2;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0083C2;
+    --bs-btn-active-border-color: #0083C2;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0083C2;
+    --bs-btn-disabled-border-color: #0083C2;
+}
+
+.btn-atc-vnub:hover {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #3CB7F0;
+    --bs-btn-border-color: #3CB7F0;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #3CB7F0;
+    --bs-btn-hover-border-color: #3CB7F0;
+    --bs-btn-focus-shadow-rgb: 225, 83, 97;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #3CB7F0;
+    --bs-btn-active-border-color: #3CB7F0;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #3CB7F0;
+    --bs-btn-disabled-border-color: #3CB7F0;
+    transition: all 0.8s;
+}
+
+.nav-pills:hover {
+    --bs-nav-pills-border-radius: 0.375rem;
+    --bs-nav-pills-link-active-color: #fff;
+    --bs-nav-pills-link-active-bg: #000000;
+}
+
+.aside {
+    display: block;
+}
+
+.mainDT {
+    font-family: "PoppinsSB";
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+}
+
+.mainBT {
+    font-family: "PoppinsSB";
+    font-size: 25px;
+    color: #0083C2;
+}
+
+.UAtitle {
+    font-family: "PoppinsR";
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.navSmButton {
+    border: none;
+}
+
+.iconAni:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+}
+
+.acTitle {
+    font-family: "PoppinsB";
+    color: #000000;
+    font-size: 30px;
+}
+
+
+
+.niceToSeeYou {
+
+    background-image: linear-gradient(-225deg,
+            #0083C2 0%,
+            #EB1733 29%,
+            #F0E824 67%,
+            #3CB7F0 100%);
+
+    font-family: "PoppinsB";
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s reverse infinite;
+    display: inline-block;
+    font-size: 70px;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.accInfo {}
+
+
+.acTitle {
+
+    background-image: linear-gradient(-225deg,
+            #0083C2 0%,
+            #EB1733 29%,
+            #F0E824 67%,
+            #3CB7F0 100%);
+
+    font-family: "PoppinsB";
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 10s forwards infinite;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.vnyBtn {
+    height: 40px;
+    width: 20rem;
+    border: none;
+    background-color: white;
+    font-size: 14px;
+
+
+
+
+    background-color: #0083C2;
+    color: white;
+    border-radius: 0.5rem;
+
+    background-image: linear-gradient(-225deg,
+            #0083C2 0%,
+            #3CB7F0 100%);
+
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+
+
+    animation: textclip 5s forwards infinite;
+    display: inline-block;
+
+}
+
+.vnyBtn:hover {
+    margin-left: 0.2rem;
+}
+
+
+.accMainDivStyle {
+
+    animation-name: opAnimation;
+    animation-duration: 1s;
+
+
+}
+
+@keyframes opAnimation {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.cartMTitle {
+    font-family: "PoppinsSB";
+    color: #000000;
+    font-size: 30px;
+}
+
+.breadcrumbText {
+    font-size: 14px;
+
+}
+
+.OrderSummary {
+    font-family: "PoppinsSB";
+    color: #000000;
+    font-size: 30px;
+}
+
+.SubtotalTitle {
+    font-family: "PoppinsSB";
+    color: #000000;
+    font-size: 20px;
+}
+
+.Subtotal {
+    font-family: "PoppinsSB";
+    color: #000000;
+    font-size: 30px;
+}
+
+.btn-primary {
+    background-color: #0083C2;
+    height: 40px;
+    width: 20rem;
+
+}
+
+.form-controlVNY {
+    width: 5rem;
+
+}
+
+.wishlistTitle {
+    font-family: "PoppinsSB";
+    font-size: 15px;
+}
+
+.wishlistD {
+    font-size: 14px;
+}
+
+.priceD {
+    font-family: "PoppinsSB";
+    font-size: 15px;
+    color: #0083C2;
+
+}
+
+.wishlistIcon {
+    background-color: #EB1733;
+}
+
+.wishlistIcon2 {
+    background-color: #000000;
+}
+
+.cartTitle {
+    font-family: "PoppinsSB";
+    font-size: 15px;
+}
+
+.cartD {
+    font-size: 14px;
+}
+
+.cRemove {
+    font-size: 14px;
+    background-color: #ffffff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    border-bottom-color: #000000;
+    transition-duration: 0.2s;
+}
+
+.cRemove:hover {
+    border-bottom-width: 0.3rem;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #3CB7F0;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #0083C2;
+}
+
+.singleProductTitle {
+    font-family: "PoppinsSB";
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+
+.singleProductPrice {
+    font-family: "PoppinsSB";
+    font-size: 20px;
+}
+
+.singleProductO {
+    font-family: "PoppinsR";
+    font-size: 16px;
+}
+
+
+
+.select {
+
+    height: 3rem;
+    width: 10rem;
+
+}
+
+.qty {
+    border-style: hidden;
+    position: absolute;
+    width: 4rem;
+}
+
+.qty:focus {
+    border-left: none;
+    border-right: none;
+    height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.decrease-quantity {
+    border: none;
+    background-color: white;
+}
+
+
+.increase-quantity {
+    border: none;
+    background-color: white;
+}
+
+.vnyBtnAddC {
+    height: 40px;
+    width: 20rem;
+    border: none;
+    font-size: 14px;
+
+    background-color: #0083C2;
+    color: white;
+    border-radius: 0.5rem;
+
+    transition-duration: 0.2s;
+
+}
+
+.vnyBtnAddC:hover {
+    background-color: #3CB7F0;
+}
+
+/* Slideshow Product */
+
+.mySlides {
+    display: block;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 20%;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    border-radius: 0 3px 3px 0;
+
+}
+
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* .active, .dot:hover{
+    background-color: #717171;
+} */
+
+.dot:hover {
+    background-color: #717171;
+}
+
+.dot:active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+
+.fadeImg {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+/* pagination */
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #0083C2;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.qtyView {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.downArrowBtn {
+    background-color: #0083C2;
+    border: none;
+    border-radius: 20%;
+    margin-right: 1rem;
+}
+
+.upArrowBtn {
+    background-color: #0083C2;
+    border: none;
+    border-radius: 20%;
+    margin-left: 1rem;
+}
+
+.qty {
+    color: #212529;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.searchBox {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchInput {
+    height: 10rem;
+    border: none;
+}
+
+.searchIcon {
+    position: absolute;
+}
+
+.code {
+    opacity: 0;
+}
+
+.codev {
+    opacity: 100%;
+}
+
+.log {
+    opacity: 0;
+}
+
+.logv {
+    opacity: 100%;
+}
+
+.view {
+    opacity: 100%;
+}
+
+.viewC {
+    opacity: 0;
+}
+
+.viewx {
+    opacity: 100%;
+}
+
+.viewxC {
+    opacity: 0;
+}
+
+::placeholder {
+    color: #f8f8ff;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+    height: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color:  rgb(43, 106, 255);
+    border-radius: 2px;
+}
+

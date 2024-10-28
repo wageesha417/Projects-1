@@ -1,0 +1,49 @@
+<div class="ui special cards col-6 col-lg-2 mt-2 mb-2  " style="width: 18rem;">
+    <div class="card">
+        <div class="blurring dimmable image">
+            <div class="ui dimmer">
+                <div class="content">
+                    <div class="center">
+                        <div class="ui inverted button rounded-circle"><i class="material-symbols-outlined mt-2">favorite</i></div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <img src=".....">
+        </div>
+
+        <div class="content text-center ms-0 m-0">
+            <div class="col-12">
+
+                <h5 class="productName">VNY</h5>
+
+                <span class="card-text price productName">$ 1M</span>
+
+                <button class="col-12 btn btn-atc-vny  mt-2">Add to Cart</button>
+
+                <button class="col-12 btn btn-atc-vnb  mt-2">View Details</button>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+</div>
+
+   <!-- pagination-->        
+            <div class="offset-2 offset-lg-3 col-8 col-lg-6 text-center mb-3">
+
+                <div class="pagination">
+
+                    <a href="#">&laquo;</a>
+                    <a href="#" class="active">1</a>
+                    <a href="#">&raquo;</a>
+                    
+                </div>
+
+            </div>
+    <!-- pagination-->

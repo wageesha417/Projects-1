@@ -1,0 +1,48 @@
+.event__content {
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
+    background-color: gainsboro;
+}
+
+.event__details {
+    text-align: left;
+}
+
+.event__details h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #24262b;
+}
+
+.event__details .section__header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e91e63;
+    margin-bottom: 1rem;
+}
+
+.event__details .section__description {
+    font-size: 1.5rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.event__image img {
+    width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 768px) {
+    .event__content {
+        grid-template-columns: 1fr;
+    }
+
+    .event__image img {
+        margin-top: 1rem;
+    }
+}

@@ -1,0 +1,50 @@
+.section__container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 1rem;
+}
+
+.banner__card {
+    position: relative;
+    padding: 1rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    height: 200px;
+}
+
+.banner__card--1 {
+    background-image: url("resource/Res11.jpg");
+}
+
+.banner__card--2 {
+    background-image: url("resource/Res8.jpg");
+}
+
+.banner__card--3 {
+    background-image: url("resource/Res10.jpg");
+}
+
+.banner__content {
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.banner__content p {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.banner__content h4 {
+    font-size: 2rem;
+    font-weight: 600;
+}
